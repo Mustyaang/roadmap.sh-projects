@@ -1,2 +1,2 @@
 https://roadmap.sh/projects/testimonial-cards
-<img href="testimonial_card.jpeg">
+<img src="testimonial_card.jpeg">
