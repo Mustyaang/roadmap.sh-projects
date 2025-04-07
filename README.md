@@ -14,10 +14,10 @@
     </td>
   </tr>
   <tr></tr>
-    <td style="text-align: center;">
+    <td>
       https://roadmap.sh/projects/changelog-component
     </td>
-    <td style="text-align: center;">
+    <td>
       https://roadmap.sh/projects/testimonial-cards
     </td>
   </tr>
