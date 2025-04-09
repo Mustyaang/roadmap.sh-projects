@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 80%;
+    border: 2px solid #b6b3b3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+    background-color: #f2f2f2;
+    padding-block-start: 2em;
+    padding-block-end: 2em;
+}
+
+.datepicker {
+    width: 17em;
+    margin: 0 auto;
+    position: relative;
+}
+
+.datepicker input {
+    width: 100%;
+    line-height: 2.25em;
+    border: 1px solid #dadada;
+    border-radius: 0.4em;
+}
+
+.datepicker input:focus {
+    outline: 1px solid #fc6f60;
+    position: relative;
+    padding-inline-start: 1em;
+}
+
+.datepicker input:focus::placeholder {
+    color: transparent;
+}
+
+.datepicker button {
+    position: absolute;
+    width: 1.75em;
+    height: 1.75em;
+    border: none;
+    top: 0.3em;
+    right: 0.3em;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+.datepicker ::placeholder {
+    font-size: 1em;
+    text-align: center;
+}
+
+.calendar_container {
+    background-color: #ffffff;
+    width: 17em;
+    margin: 0.5em auto;
+    border: 1px solid #dadada;
+    border-radius: 0.5em;
+}
+
+.calendar_slider {
+    line-height: 2.25em;
+    text-align: center;
+    outline: 1px solid #fc6f60;
+    border-radius: 0.5em 0.5em 0 0;
+    position: relative;
+    background-color: #fc6f60;
+}
+
+.calendar_slider span::before, .calendar_slider span::after {
+    position: absolute;
+    cursor: pointer;
+}
+
+.calendar_slider span::before {
+    content: "❮";
+    left: 0.75em;
+}
+
+.calendar_slider span::after {
+    content: "❯";
+    right: 0.75em;
+}
+
+.day_container, .date_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.05em;
+    padding: 0 0.5em;
+}
+
+.day {
+    margin-block-end: 0.1em;
+    font-weight: bold;
+}
+
+.day, .date {
+    min-width: 14%;
+    padding: 0.4em;
+    text-align: center;
+    color: #5d5d5d;
+}
+
+.date:hover {
+    background-color: #fc6f60;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    color: #f2f2f2;
+}
