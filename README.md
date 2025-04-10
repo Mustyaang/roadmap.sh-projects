@@ -25,7 +25,9 @@
     <th><h3>6. Datepicker UI</th>
   </tr>
   <tr>
-    
+    <td>
+      <img src="1_Frontend Projects/6_Datepicker UI/datepicker_ui.png" width="100%">
+    </td>
   </tr>
   <tr>
     <td>
