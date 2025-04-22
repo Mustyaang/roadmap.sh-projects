@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9f4af8d85d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Accessible Form UI</title>
+</head>
+<body>
+    <div class="main">
+        <form>
+            <div class="user_box">
+                <label for="fullname">Full Name</label>
+                <input id="fullname" type="text" name="fullname" placeholder="What should we call you?" aria-label="fullname">
+            </div>
+            <div class="user_box">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="john@doe.com" aria-label="email" autocomplete="email">
+            </div>
+            <div class="user_box">
+                <label for="new_password">Enter Password</label>
+                <input id="new_password" type="password" name="new_password" placeholder="xxxxxxxx" aria-label="new_password">
+                <a href="#"><i class="fa-solid fa-eye"></i></a>
+            </div>
+            <div class="user_box">
+                <label for="confirm_password">Confirm Password</label>
+                <input id="confirm_password" type="password" name="confirm_password" placeholder="xxxxxxxx" aria-label="confirm_password">
+                <a href="#"><i class="fa-solid fa-eye-slash"></i></a>
+            </div>
+            <button type="submit">Update Profile</button>
+        </form>
+        <div class="profile_container" style="margin-right: 0px;">
+            <figure class="progress_pie">
+                <div class="pie"><span>65%</span></div>
+            </figure>
+            <div class="progress_text">
+                <h4 style="text-align: center;">Profile Completeness</h4>
+                <ul>
+                    <li><strike>Create Account</strike></li>
+                    <li><strike>Update Roadmap Progress</strike></li>
+                    <li><strike>Setup Public Profile</strike></li>
+                    <li>Complete your first project</li>
+                    <li>Invite your Friends</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
