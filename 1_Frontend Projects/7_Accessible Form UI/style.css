@@ -29,7 +29,7 @@ form {
 .user_box {
     width: 100%;
     position: relative;
-    margin-block-end: 1.5em;
+    margin-block-end: 1.75em;
 }
 
 .user_box label {
@@ -37,6 +37,15 @@ form {
     width: 100%;
     color: #4d4d4d;
     margin-block-end: 0.5em;
+}
+
+.user_box .error_msg {
+    position: absolute;
+    display: block;
+    margin-block-start: 0.25em;
+    font-size: 0.75em;
+    font-weight: bold;
+    color: #ff0000;
 }
 
 input {
@@ -61,9 +70,11 @@ input:focus {
 .user_box a {
     position: absolute;
     top: 55%;
-    right: 2%;
+    right: 0%;
     color: #4d4d4d;
     cursor: pointer;
+    width: 2em;
+    height: 1.75em;
 }
 
 .user_box a:hover {
@@ -84,7 +95,7 @@ form button {
 }
 
 form button:focus {
-    outline: solid white;
+    outline: solid #d8d8d8;
 }
 
 form button:hover {
