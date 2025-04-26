@@ -23,15 +23,22 @@
   </tr>
   <tr>
     <th><h3>6. Datepicker UI</th>
+    <th><h3>7. Accessible Form UI</h3></th>
   </tr>
   <tr>
     <td>
       <img src="1_Frontend Projects/6_Datepicker UI/datepicker_ui.png" width="100%">
     </td>
+    <td>
+      <img src="1_Frontend Projects/7_Accessible Form UI/accessible_form_ui.png" width="100%">
+    </td>
   </tr>
   <tr>
     <td>
       https://roadmap.sh/projects/datepicker-ui
+    </td>
+    <td>
+      https://roadmap.sh/projects/accessible-form-ui
     </td>
   </tr>
 </table>
