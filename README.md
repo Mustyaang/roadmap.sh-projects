@@ -41,4 +41,7 @@
       https://roadmap.sh/projects/accessible-form-ui
     </td>
   </tr>
+  <tr>
+    <td>https://roadmap.sh/projects/image-grid</td>
+  </tr>
 </table>
