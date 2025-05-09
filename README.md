@@ -43,7 +43,7 @@
   </tr>
   <tr>
     <td>
-      <img src="1_Fronten Projects/8_Image Grid Layout/image_grid_layout.jpg width="100%">
+      <img src="1_Frontend Projects/8_Image Grid Layout/image_grid_layout.png" width="100%">
     </td>
   </tr>
   <tr>
