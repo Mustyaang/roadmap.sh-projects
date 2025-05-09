@@ -42,6 +42,11 @@
     </td>
   </tr>
   <tr>
+    <td>
+      <img src="1_Fronten Projects/8_Image Grid Layout/image_grid_layout.jpg width="100%">
+    </td>
+  </tr>
+  <tr>
     <td>https://roadmap.sh/projects/image-grid</td>
   </tr>
 </table>
