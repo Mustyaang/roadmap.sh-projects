@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 80%;
+    min-width: 450px;
+    border: 2px solid #333333;
+    border-radius: 1em;
+    margin: auto;
+    padding-inline-end: 3em;
+    padding-block: 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu ul {
+    list-style: none;
+    float: right;
+    position: relative;
+}
+
+#menu li {
+    display: inline-block;
+    font-size: 1.25em;
+    margin-inline-start: 1.25em;
+    position: relative;
+}
+
+#menu li::before {
+    content: " ";
+    position: absolute;
+    width: 0.25em;
+    height: 0.25em;
+    border-radius: 50%;
+    background-color: #8e8e8e;
+    top: 50%;
+    margin-inline-start: -0.9em;
+}
+
+#menu li:first-child::before {
+    display: none;
+}
+
+ul a, ul a:link, ul a:visited {
+    text-decoration: none;
+    color: #333333;
+}
+
+.tooltip1 {
+    opacity: 0;
+    transition: opacity 1s;
+    left: 0;
+}
+
+.tooltip2 {
+    visibility: hidden;
+    scale: 0;
+    transition: scale 1s;
+    left: -6em;
+}
+
+.tooltip3 {
+    visibility: hidden;
+    opacity: 0;
+    rotate: -90deg;
+    transition: rotate 1s, opacity 1s;
+    left: -13.25em;
+}
+
+.pos {
+    position: absolute;
+    background-color: #333333;
+    border-radius: 0.5em;
+    color: aliceblue;
+    padding-block: 0.75em;
+    padding-inline: 0.5em;
+    text-align: center;
+    font-size: 0.75em;
+    width: 245px;
+    top: -3.5em;
+}
+
+
+a:hover .tooltip1 {
+    display: inline-block;
+    opacity: 1;
+    left: 0;
+}
+
+a:hover .tooltip2 {
+    visibility: visible;
+    scale: 1;
+    left: -6em;
+}
+
+a:hover .tooltip3 {
+    visibility: visible;
+    rotate: 0deg;
+    opacity: 1;
+    left: -13.25em;
+}
+
+.tooltip1::after, .tooltip2::after, .tooltip3::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    border: 0.5em solid;
+    border-color: #333333 transparent transparent transparent;
+}
+
+.tooltip1::after {
+    left: 1.5em;
+}
+
+.tooltip2::after {
+    left: 8em;
+}
+
+.tooltip3::after {
+    left: 14em;
+}
