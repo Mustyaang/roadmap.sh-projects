@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabs</title>
+</head>
+<body>
+    <main>
+        <div class="tabs">
+            <button class="tablink active" onclick="openTab('Tab1', this)">First Tab</button>
+            <button class="tablink" onclick="openTab('Tab2', this)">Second Tab</button>
+            <button class="tablink" onclick="openTab('Tab3', this)">Third Tab</button>
+            <button class="tablink" onclick="openTab('Tab4', this)">Fourth Tab</button>
+        </div>
+        <div id="Tab1" class="tab-content">
+            <p><b>I am content of First Tab, default tab.</b> Clicking each tab should hide the content of the other tab and show the content of clicked tab. By default the first tab.</p>
+            <p class="quote">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas eius totam repellat placeat molestiae enim rerum praesentium a earum cumque, pariatur repellendus. Eaque sed itaque reprehenderit ullam? Quas, laborum nam?
+            </p>
+        </div>
+        <div id="Tab2" class="tab-content">
+            <p><b>I am content of Second Tab.</b> Clicking each tab should hide the content of the other tab and show the content of clicked tab. By default the first tab.</p>
+            <p class="quote">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas eius totam repellat placeat molestiae enim rerum praesentium a earum cumque, pariatur repellendus. Eaque sed itaque reprehenderit ullam? Quas, laborum nam?
+            </p>
+        </div>
+        <div id="Tab3" class="tab-content">
+            <p><b>I am content of Third Tab.</b> Clicking each tab should hide the content of the other tab and show the content of clicked tab. By default the first tab.</p>
+            <p class="quote">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas eius totam repellat placeat molestiae enim rerum praesentium a earum cumque, pariatur repellendus. Eaque sed itaque reprehenderit ullam? Quas, laborum nam?
+            </p>
+        </div>
+        <div id="Tab4" class="tab-content">
+            <p><b>I am content of Fourth Tab.</b> Clicking each tab should hide the content of the other tab and show the content of clicked tab. By default the first tab.</p>
+            <p class="quote">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas eius totam repellat placeat molestiae enim rerum praesentium a earum cumque, pariatur repellendus. Eaque sed itaque reprehenderit ullam? Quas, laborum nam?
+            </p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
