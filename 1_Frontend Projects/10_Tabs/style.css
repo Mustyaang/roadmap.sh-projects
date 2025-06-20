@@ -1,0 +1,50 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+main {
+    width: 80%;
+    margin: 1em auto;
+    border: 2px solid #333;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.tablink {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #232323;
+    cursor: pointer;
+    background-color: #adadad;
+    border: none;
+    border-bottom: 2px solid #333;
+    padding: 12px 18px;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.tablink:hover:not(.active) {
+    background-color: #7e7e7e;
+}
+
+.active {
+    border-bottom: 2px solid #f4f4f4;
+    background-color: #f4f4f4;
+}
+
+.tab-content {
+    background-color: #f4f4f4;
+    padding: 0.5em;
+}
+
+.quote {
+    background-color: aquamarine;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+@media all and (max-width: 576px) {
+    .tabs {
+        min-width: 530px;
+    }
+}
