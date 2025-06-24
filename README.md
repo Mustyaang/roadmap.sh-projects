@@ -67,14 +67,9 @@
     <td>
       <img src="1_Frontend Projects/10_Tabs/tabs.png" width="100%">
     </td>
-    <td>
-      
-    </td>
+    
   </tr>
   <tr>
-    <td>
-      
-    </td>
     <td></td>
   </tr>
 </table>
