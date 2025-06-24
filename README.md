@@ -59,5 +59,22 @@
       https://roadmap.sh/projects/tooltip-ui
     </td>
   </tr>
-  <tr><td></td></tr>
+  <tr>
+    <th><h3>10. Tabs</h3></th>
+    <th><h3>11.</h3></th>
+  </tr>
+  <tr>
+    <td>
+      <img src="1_Frontend Projects/10_Tabs/tabs.png" width="100%">
+    </td>
+    <td>
+      
+    </td>
+  </tr>
+  <tr>
+    <td>
+      
+    </td>
+    <td></td>
+  </tr>
 </table>
